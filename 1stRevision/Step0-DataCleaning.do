@@ -334,4 +334,5 @@ drop if _merge !=3
 drop _merge
 drop if source == "GIB"
 drop if CountryName_s == "Bosnia and Herzegovina"
+drop y*
 save Data-Europe-Asia-all, replace
