@@ -1,9 +1,9 @@
 {smcl}
-{txt}{sf}{ul off}{.-}
+{com}{sf}{ul off}{txt}{.-}
       name:  {res}<unnamed>
        {txt}log:  {res}C:\Users\ngoca\Dropbox\Pubs_since_2018\2019-Europe-Asia-FDI\2ndRevision_Final\Regression-logfile.smcl
   {txt}log type:  {res}smcl
- {txt}opened on:  {res}15 Nov 2020, 15:48:02
+ {txt}opened on:  {res}15 Nov 2020, 16:03:52
 {txt}
 {com}. 
 . 
@@ -807,8 +807,7 @@ Number of observations excluded: 0
 . esttab using Results.rtf, star(* 0.1 ** 0.05 *** 0.01) stats (ll N) ///
 > se(3) b(3) nodepvars drop (y*) noomitted nogaps title(Table 5: Results for the whole sample) compress replace
 {txt}(tabulating estimates stored by eststo; specify "." to tabulate the active results)
-{res}{txt}(note: file Results.rtf not found)
-(output written to {browse  `"Results.rtf"'})
+{res}{txt}(output written to {browse  `"Results.rtf"'})
 
 {com}. 
 . use Data-Europe-Asia, clear
@@ -2606,8 +2605,7 @@ Number of observations excluded: 0
 . esttab using RevisedResults.rtf, star(* 0.1 ** 0.05 *** 0.01) stats (ll N) ///
 > se(3) b(3) nodepvars noomitted nogaps title(Table R1: All Asia  stock, added vars) compress replace
 {txt}(tabulating estimates stored by eststo; specify "." to tabulate the active results)
-{res}{txt}(note: file RevisedResults.rtf not found)
-(output written to {browse  `"RevisedResults.rtf"'})
+{res}{txt}(output written to {browse  `"RevisedResults.rtf"'})
 
 {com}. 
 . 
@@ -2616,7 +2614,7 @@ Number of observations excluded: 0
       {txt}name:  {res}<unnamed>
        {txt}log:  {res}C:\Users\ngoca\Dropbox\Pubs_since_2018\2019-Europe-Asia-FDI\2ndRevision_Final\Regression-logfile.smcl
   {txt}log type:  {res}smcl
- {txt}closed on:  {res}15 Nov 2020, 15:49:15
+ {txt}closed on:  {res}15 Nov 2020, 16:04:44
 {txt}{.-}
 {smcl}
 {txt}{sf}{ul off}

@@ -2,7 +2,7 @@ clear
 global mainpath "A:\AnhDropbox\01 PHD 2016\Data-main"
 cd "C:\Users\ngoca\Dropbox\Pubs_since_2018\2019-Europe-Asia-FDI\2ndRevision_Final"
 capture log close
-log using Regression-all, replace
+log using Regression-logfile, replace
 
 
 *======================== Table 4: Variable summary ==========================================
